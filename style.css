@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    background: #FFFFFF;
+    padding: 20px 36px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* banner style */
+
+.banner {
+    background-image: url("./images/banner/banner3.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    align-items: center;
+    height: 100vh;
+    height: 808px;
+}
+
+
+.banner-content {
+    margin-right: 200px;
+
+}
+
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #fff;
+    width: 525px;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    width: 494px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+
+/* girl content */
+
+.girl-content {
+    display: flex;
+    gap: 87px;
+    margin: 130px 264px 130px 200px;
+    align-items: center;
+}
+
+
+.girl-content-title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.girl-content-description {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+div li {
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+li i {
+    color: #16D887;
+}
+
+
+/* my plan content */
+
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    margin-top: 130px;
+}
+
+.plan-group {
+    display: flex;
+    gap: 120px;
+    margin: 50px 230px 130px 230px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.plan-content {
+    text-align: center;
+}
+
+.plan-content h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-content p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* mindset content */
+
+.mindset {
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    margin: 130px 230px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+.mindset-content {
+    margin-left: 64px;
+
+}
+
+.mindset h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 459px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+
+/* footer style*/
+
+footer {
+    display: flex;
+    padding: 130px 230px;
+    background-color: #151414;
+    gap: 330px;
+}
+
+.contact h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.contact-description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.contact-email {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.contact-phone {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.contact .social {
+    display: flex;
+    gap: 17px;
+}
+
+
+.email p {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+.email input {
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+    padding: 21px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.subscribe-btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #005FAC;
+    border-radius: 8px;
+    padding: 20px 36px;
+    border: none;
+}
