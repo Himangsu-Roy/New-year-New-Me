@@ -94,7 +94,7 @@ li i {
 
 .plan-group {
     display: flex;
-    gap: 60px;
+    gap: 50px;
     margin: 50px 230px 130px 230px;
     align-items: center;
     justify-content: center;
